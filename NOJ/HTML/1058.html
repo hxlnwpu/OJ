@@ -1,0 +1,98 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1058.方程求解
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    迭代法是用于求解方程或方程组近似根的一种常用的算法设计方法。设方程为f(x)=0,用某种数学方法推
+    <br/>
+    <br/>
+    导出来的等价的形式x=g(x),然后按一下步骤进行：
+    <br/>
+    1)选一个方程的近似根，赋给变量x0；
+    <br/>
+    2)将x0的值保存于变量x1，然后计算g(x1)，并将结果存于x0
+    <br/>
+    3)当x0与x1的差的绝对值还小于指定的精度要求时，重复步骤2
+    <br/>
+    若方程有根，并且用上述方法计算出来的近似根序列收敛，则按照上述方法求得的x0就认为是方程的根。
+    <br/>
+    上述方法用C程序的形式表示如下：
+    <br/>
+    x0=初始近似根
+    <br/>
+    do{
+    <br/>
+    x1 =x0;
+    <br/>
+    x0 = g(x1);	/*按特定的方程计算新的近似根*/
+    <br/>
+    }while(fabs(x0-x1)大于精度要求);
+    <br/>
+    printf("方程的近似根是%f\n",x0);
+    <br/>
+    试用迭代公式为X(n+1) = 0.5*(x(n)+a/x(n))，计算a为不同值的时候的结果(初值为1.0，精度要求为1e
+    <br/>
+    <br/>
+    -4)。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    一个整型数据a，a大于等于1，小于等于10
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    结果x0,结果保留小数点后3位
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    1
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    1.000
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    注意要以换行结尾。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1058)" type="button" value="提交"/>
+ </body>
+</html>

@@ -1,0 +1,96 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1616.输入转义
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：100000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    输入一行字符。
+    <br/>
+    <br/>
+    将其中的所有有效转义字符转换为对应字符，并输出转换后的字符串。
+    <br/>
+    <br/>
+    <br/>
+    有效转义字符的定义及转义规则：
+    <br/>
+    <br/>
+    1、本题的转义包括且仅包括 “\”（反斜杠）引起的转义。
+    <br/>
+    <br/>
+    2、本题的转义共分为两种：
+    <br/>
+    <br/>
+    第一种为 反斜杠与数字（小于128的非负整数）的组合，如 \117 为字符 'u' ；
+    <br/>
+    <br/>
+    第二种为 反斜杠与非数字字符的组合，表示忽略其原有一切意义，并直接输出该非数字字符。
+    <br/>
+    <br/>
+    3、 对于第一种转义，反斜杠应尽可能匹配更大的值，如 \122 应该匹配 ASCII值为 122 的字符 ， 而 \1308 只能被理解为 字符'\13' 和 "08"的组合。
+    <br/>
+    <br/>
+    4、对于 单/双引号 内的字符（串），不进行转义处理。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    一行字符串，以回车结尾。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    对应的一系列字符。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    123456789\10abc
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    123456789
+    <br/>
+    abc
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    输入的总字符数量小于 1e6 。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+    RedContritio
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1616)" type="button" value="提交"/>
+ </body>
+</html>

@@ -1,0 +1,80 @@
+    1225.lookup
+   
+    时限：1000ms 内存限制：15000K  总时限：3000ms
+   
+    描述
+   
+    Farmer John's N (1 <= N <= 100,000) cows, conveniently numbered
+    
+    1..N, are once again standing in a row. Cow i has height H_i (1 <=
+    
+    H_i <= 1,000,000).
+    
+    Each cow is looking to her left toward those with higher index
+    
+    numbers. We say that cow i 'looks up' to cow j if i < j and H_i <
+    
+    H_j. For each cow i, FJ would like to know the index of the first
+    
+    cow in line looked up to by cow i.
+    
+    Note: about 50% of the test data will have N <= 1,000.
+   
+    输入
+   
+    * Line 1: A single integer: N
+    
+    * Lines 2..N+1: Line i+1 contains the single integer: H_i
+   
+    输出
+   
+    * Lines 1..N: Line i contains a single integer representing the
+    
+    smallest index of a cow up to which cow i looks. If no such
+    
+    cow exists, print 0.
+   
+    输入样例
+   
+    6
+    
+    3
+    
+    2
+    
+    6
+    
+    1
+    
+    1
+    
+    2
+    
+    输出样例
+   
+    3
+    
+    3
+    
+    0
+    
+    6
+    
+    6
+    
+    0
+    
+    提示
+   
+    INPUT DETAILS:
+    
+    FJ has six cows of heights 3, 2, 6, 1, 1, and 2.
+    
+    OUTPUT DETAILS:
+    
+    Cows 1 and 2 both look up to cow 3; cows 4 and 5 both look up to cow 6; and
+    
+    cows 3 and 6 do not look up to any cow.
+    
+    来源
+   

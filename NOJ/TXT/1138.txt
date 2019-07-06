@@ -1,0 +1,40 @@
+    1138.四方定理
+   
+    时限：1000ms 内存限制：10000K  总时限：5000ms
+   
+    描述
+   
+    四方定理证明了任何一个自然数至多只要用四个整数的平方和就可以表示（这四个整数可以相等）。
+    
+    验证这个定理。
+    
+    Quartet Theorem can prove that any natural number can be represented by the sum of four squares of integers at most. (The integers can be equal).
+    
+    Now certify this theorem.
+   
+    输入
+   
+    输入一个自然数n(n<=100000)。
+    
+    Input a natural number
+   
+    输出
+   
+    输出数据中需包含所有满足定理的解，每个解占一行，四个数字（不足四个的用0补足）由小到大排列，以空格分隔。所有解以升序排列（即0 0 0 2在1 1 1 1之前）。注意：本题要求程序效率要高，否则肯定超时。
+    
+    Output all the answers which match the Quartet Theorem.Each answer occupies a line,and four integers arrange from small to large separated by space.All answers arrange in ascending order.
+   
+    输入样例
+   
+    16
+    
+    输出样例
+   
+    0 0 0 4
+    
+    2 2 2 2
+    
+    提示
+   
+    来源
+   

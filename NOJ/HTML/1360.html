@@ -1,0 +1,90 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1360.找出直系亲属
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：32768K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    如果A，B是C的父母亲，则A，B是C的parent，C是A，B的child，如果A，B是C的（外）祖父，祖母，则A，B是C的grandparent，C是A，B的grandchild，如果A，B是C的（外）曾祖父，曾祖母，则A，B是C的great-grandparent，C是A，B的great-grandchild，之后再多一辈，则在关系上加一个great-。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    输入包含多组测试用例,每组用例首先包含2个整数n（0&lt;=n&lt;=26）和m（0&lt;m&lt;50）, 分别表示有n个亲属关系和m个问题, 然后接下来是n行的形式如ABC的字符串，表示A的父母亲分别是B和C，如果A的父母亲信息不全，则用-代替，例如A-C,再然后是m行形式如FA的字符串,表示询问F和A的关系。
+    <br/>
+    当n和m为0时结束输入。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    如果询问的2个人是直系亲属，请按题目描述输出2者的关系，如果没有直系关系，请输出-。
+    <br/>
+    具体含义和输出格式参见样例.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    3 2
+    <br/>
+    ABC
+    <br/>
+    CDE
+    <br/>
+    EFG
+    <br/>
+    FA
+    <br/>
+    BE
+    <br/>
+    0 0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    great-grandparent
+    <br/>
+    -
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1360)" type="button" value="提交"/>
+ </body>
+</html>

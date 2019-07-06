@@ -1,0 +1,173 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1318.汇编模拟器六（含有读取数据命令）
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    设计程序，模拟汇编语言，通过输入多条语句，对寄存器的数据进行操作，实现目标程序。32个寄存器分别为k0~k15,t0~t14,ra ，且所有寄存器已被初始化为0。
+    <br/>
+    <br/>
+    现有以下六条命令：
+    <br/>
+    <br/>
+    mov    例：mov k1 k2        解释：把k2的值赋给k1。
+    <br/>
+    Addi    例：Addi k2 k5 -4    解释：k2 = k5 - 4（加立即数）。
+    <br/>
+    Add    例：Add k2 k5 t8    解释：k2 = k5 + t8（加法指令）。
+    <br/>
+    Bgez    例：Bgez k3 0x8        解释：分支语句（k3大于等于0时跳转到0x8，0x8即标号为8的语句行）。
+    <br/>
+    li    例：li k3 9        解释：赋值语句，直接把9赋值给k3
+    <br/>
+    第六条命令为lw
+    <br/>
+    程序和数据都存储在内存中的只读存储器中，可以从内存的数据区域读取数据
+    <br/>
+    lw    例：lw k3 8(k0)        解释：把内存中数据区域的地址为k0+8开始的一个字(4个字节)的数据读取到k3
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    先输入语句条数n，和数据的条数m，然后再输入n条语句和m条数据。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    输出这些语句执行后所有寄存器的值。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    6 5
+    <br/>
+    0: li k0 32
+    <br/>
+    4: lw k1 -8(k0)
+    <br/>
+    8: lw k2 -4(k0)
+    <br/>
+    c: lw k3 0(k0)
+    <br/>
+    10: lw k4 4(k0)
+    <br/>
+    14: lw k5 8(k0)
+    <br/>
+    18: 0x1
+    <br/>
+    1c: 0x8
+    <br/>
+    20: 0x10
+    <br/>
+    24: 0x1a
+    <br/>
+    28: 0xaa
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    32
+    <br/>
+    1
+    <br/>
+    8
+    <br/>
+    16
+    <br/>
+    26
+    <br/>
+    170
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1318)" type="button" value="提交"/>
+ </body>
+</html>

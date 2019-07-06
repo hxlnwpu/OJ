@@ -1,0 +1,44 @@
+    1405.整除(Divisible)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输入正整数n，输出小于或等于n的能被7或11整除的所有整数。
+    
+    Enter a positive integer n, output all the integers less or equal to n and it is divisible by 7 or 11.
+   
+    输入
+   
+    输入正整数n，
+    
+    Enter a positive integer n,
+   
+    输出
+   
+    输出小于或等于n的能被7或11整除的所有整数。
+    
+    output all the integers less or equal to n and it is divisible by 7 or 11.
+   
+    输入样例
+   
+    30
+    
+    输出样例
+   
+    7
+    
+    11
+    
+    14
+    
+    21
+    
+    22
+    
+    28
+    
+    提示
+   
+    来源
+   

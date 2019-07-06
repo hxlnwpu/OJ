@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1288.计算任意指定坐标的棋子的气
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    任意指定一颗黑方棋子，该棋子可能与其他本方棋子相连，编写一个程序求这颗棋子的的气（棋盘上单独一个棋子的气数不可能超过四气，但两个或两个以上相连的棋子则不同了，如果指定的棋子与其他本方棋子相连，则计算相连所有棋子的气）。
+    <br/>
+    注：“相连”指的是通过交叉点相连
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    先输入一个19*19的整数矩阵表示棋盘的当前状态，在程序中，用19*19的二维数组表示该对阵棋盘，当交叉点处为空时用0表示，当交叉点处是黑方棋子时用1表示，当交叉点处是白方棋子时用2表示。再输入两个整数m，n，表示指定的黑方棋子所在的行和列，其中0&lt;=m，n&lt;=18。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    输出指定棋子的气。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    <br/>
+    2 2
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    6
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1288)" type="button" value="提交"/>
+ </body>
+</html>

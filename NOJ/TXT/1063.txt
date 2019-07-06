@@ -1,0 +1,34 @@
+    1063.字符串逆序(String in reverse order)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    对键盘输入的字符串进行逆序，逆序后的字符串仍然保留在原字符数组中，最后输出。
+    
+    Enter a string, reverse, reverse string still retains the original character array, the final output it.
+   
+    输入
+   
+    一字符串，以回车结束。字符串长度小于20。
+    
+    Input a string,  String length is less than 20.
+   
+    输出
+   
+    字符串的逆序
+    
+    The reverse order of the string
+   
+    输入样例
+   
+    hello world
+   
+    输出样例
+   
+    dlrow olleh
+   
+    提示
+   
+    来源
+   

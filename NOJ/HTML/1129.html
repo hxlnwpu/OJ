@@ -1,0 +1,107 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1129.cheat
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    有N人参加比赛，每两人进行一场游戏（因此共进行N*(N-1)/2场游戏），每场游戏分十轮，在每轮中，两人同时说出“TRADE”和“CHEAT”其中之一，如果两人都“TRADE”，各得一分，如果两人都“CHEAT”，各扣一分，如果一个“TRADE”，一个“CHEAT”，则CHEAT的那个人得2分，TRADE的扣2分。每人得的N-1场分数的总和为该人的最后得分,看谁的得分最高。当然，在比赛之前每人的得分为0。如何才能取胜呢？人们设计了很多战术，可以用以下的“战术语言”来描述：
+    <br/>
+    [program] ::= [statement].
+    <br/>
+    [statement] ::= [command] | [ifstat]
+    <br/>
+    [ifstat] ::= IF [condition] THEN [statement] ELSE [statement]
+    <br/>
+    [condition] ::= [cond] | [cond] [op] [condition]
+    <br/>
+    [op] ::= AND | OR
+    <br/>
+    [cond] ::= [memory] {= | #} {[command] | NULL}
+    <br/>
+    [memory] ::= {MY | YOUR} LAST {1 | 2}
+    <br/>
+    [command] ::= TRADE | CHEAT
+    <br/>
+    #的意思是“不等于”，NULL的意思是空，不存在。LAST1表示当前倒数第一轮的command，LAST2表示当前倒数第二轮的command。显然前两轮LAST2为NULL。
+
+AND和OR优先级相同，结合性从右向左。
+
+例：x AND y OR z AND v 理解为 ( x AND ( y OR ( z AND v ) ) )。
+
+空格可以在任何地方出现，不会有其他分隔符。
+
+例如：
+
+CHEAT.
+
+和
+
+IFYOURLAST2=NULLTHENTRADEELSEIFYOURLAST1=TRADETHENTRADEELSECHEAT.
+
+是两个合法的战术语言程序。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    第一行，N（&lt;=10），以下 N 行，每一行为一个程序（长度&lt;=255）
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    共 1 行，有 N 个整数，分别为各程序的最后得分。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    3
+
+CHEAT.
+
+IF MY LAST1 = CHEAT THEN TRADE ELSE CHEAT.
+
+IFYOURLAST2=NULLTHENTRADEELSEIFYOURLAST1=TRADETHENTRADEELSECHEAT.
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    1 -12 -13
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1129)" type="button" value="提交"/>
+ </body>
+</html>

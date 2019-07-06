@@ -1,0 +1,127 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1225.lookup
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：15000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    Farmer John's N (1 &lt;= N &lt;= 100,000) cows, conveniently numbered
+    <br/>
+    1..N, are once again standing in a row. Cow i has height H_i (1 &lt;=
+    <br/>
+    H_i &lt;= 1,000,000).
+    <br/>
+    <br/>
+    Each cow is looking to her left toward those with higher index
+    <br/>
+    numbers. We say that cow i 'looks up' to cow j if i &lt; j and H_i &lt;
+    <br/>
+    H_j. For each cow i, FJ would like to know the index of the first
+    <br/>
+    cow in line looked up to by cow i.
+    <br/>
+    <br/>
+    Note: about 50% of the test data will have N &lt;= 1,000.
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    * Line 1: A single integer: N
+    <br/>
+    <br/>
+    * Lines 2..N+1: Line i+1 contains the single integer: H_i
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    * Lines 1..N: Line i contains a single integer representing the
+    <br/>
+    smallest index of a cow up to which cow i looks. If no such
+    <br/>
+    cow exists, print 0.
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    6
+    <br/>
+    3
+    <br/>
+    2
+    <br/>
+    6
+    <br/>
+    1
+    <br/>
+    1
+    <br/>
+    2
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    3
+    <br/>
+    3
+    <br/>
+    0
+    <br/>
+    6
+    <br/>
+    6
+    <br/>
+    0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    INPUT DETAILS:
+    <br/>
+    <br/>
+    FJ has six cows of heights 3, 2, 6, 1, 1, and 2.
+    <br/>
+    <br/>
+    OUTPUT DETAILS:
+    <br/>
+    <br/>
+    Cows 1 and 2 both look up to cow 3; cows 4 and 5 both look up to cow 6; and
+    <br/>
+    cows 3 and 6 do not look up to any cow.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1225)" type="button" value="提交"/>
+ </body>
+</html>

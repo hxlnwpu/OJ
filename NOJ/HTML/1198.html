@@ -1,0 +1,99 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1198.Muddy roads
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    雷磊同学每日都沉浸在彩票的世界里，因为他相信凭借他的数学和计算机水平可以使他的中奖几率大大的提高，他是这么想的，他买的彩票是N（2&lt;= N &lt;= 35）选M（1&lt;= M &lt;= N）的彩票，在每次买的时候他都会注意售票中心给出的当轮彩票的一些提示信息，诸如：必然包含哪些数，必然不包含哪些数，必然有2连出现，而没有3连出现等等（注意：例如2 3 4 应该算为3连，而不能算为2连）。为了提高选票的效率，他想编写一个程序，来通过条件给他选出哪些是可以买的彩票。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    line 1 ：两个数N和M；
+    <br/>
+    line 2 ：第一个数表示必然包含i个数，后i个数说明包含哪i个数。
+    <br/>
+    line 3 ：第一个数表示必然不包含i个数，后i个数说明不包含哪i个数。
+    <br/>
+    line 4...3+M : 分别表示从2连到M连的情况各有几次（-1表示一定没有，0表示不确定）。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    所有的可能的选法，按递增的顺序排列，每个选法一行。
+    <br/>
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    10 7
+    <br/>
+    2 1 7
+    <br/>
+    2 9 4
+    <br/>
+    1
+    <br/>
+    -1
+    <br/>
+    1
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    1 2 5 6 7 8 10
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    本回买的是10选7的彩票，必然包含10和7，必然不包含4和9，必然有1个2连和1个4连，必然没有3连。
+    <br/>
+    输出可能的结果 1 2 5 6 7 8 10.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1198)" type="button" value="提交"/>
+ </body>
+</html>

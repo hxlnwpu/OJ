@@ -1,0 +1,90 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1078.悬挂的纸牌
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    按照如下的规则堆放纸牌，超出桌子的最长有多长？
+    <br/>
+    如果你有一张牌，这一张牌最多能有一半能超出桌子，如果你有两张牌，上面的牌能够有一半的超出下面牌，但是下面的牌只能有三分之一超出桌子，这样两张牌最多有1/2+1/3=5/6超出桌子，同理，对于n张牌，最上面的牌最多能有1/2部分超出第2张牌，第2张牌最多有1/3部分超出第三张牌，依次类推，第n 张牌最多有1/（n+1）部分超出桌子，因此，n 张牌最多超出桌子的部分为1/2+1/3+1/4+...+1/（n+1），情形如下图所示。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    有一组或多组数据，每行一组数据，当数据为0.00时，表示为输入结束，每一组数据为0.01~5.20之间（包括边界）的浮点数（小数位两位）。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    对于每一组数据，输入能达到所给定长度所需要的最少纸牌数。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    1.00
+    <br/>
+    3.71
+    <br/>
+    0.04
+    <br/>
+    5.19
+    <br/>
+    0.00
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    3 card(s)
+    <br/>
+    61 card(s)
+    <br/>
+    1 card(s)
+    <br/>
+    273 card(s)
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+    2006西北工业大学程序设计竞赛初赛题F
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1078)" type="button" value="提交"/>
+ </body>
+</html>

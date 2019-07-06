@@ -1,0 +1,34 @@
+    1034.字符串大小写逆置(reverse the uppercase and lowercase)
+   
+    时限：100ms 内存限制：10000K  总时限：1000ms
+   
+    描述
+   
+    给定一个字符串，全部由英文字母组成 ，要求把该字符串的中的大写字母改为小写，小写字母改为大写。字符长度不超过20
+    
+    Input a string, it is compose of letters, you must be change all the uppercase letters to lowercase and all the lowercase to uppercase. The string length is no more then 20
+   
+    输入
+   
+    一个长度不超过20的字符串
+    
+    Input a string, the string length is no more then 20
+   
+    输出
+   
+    输出处理完后的字符串，最后输出回车
+    
+    Output the reversed string.
+   
+    输入样例
+   
+    HelloWorld
+    
+    输出样例
+   
+    hELLOwORLD
+    
+    提示
+   
+    来源
+   

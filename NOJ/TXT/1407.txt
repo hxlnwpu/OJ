@@ -1,0 +1,50 @@
+    1407.the peanut
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    五一劳动节假期，Tom和Jerry在仓库散步的时候又发现了一堆花生米。Tom制定分花生米规则如下：
+    
+    1、Tom和Jerry轮流从堆中取出k粒花生米吃掉，k可以是1，3，4中的任意一个数字；
+    
+    2、为显示规则的公平性，Jerry可以选择先取或者后取。
+    
+    谁取到最后一粒花生米谁胜。
+    
+    Jerry当然希望自己获得胜利。请计算，Jerry为了达到目的应该先取还是后取。
+    
+    May Day, Tom and Jerry is walking in the warehouse and found a bunch of peanuts. Tom make rules as follows:
+    
+    1. Tom and jerry take k peanut from the heap in turn, k can be any of a number in 1,3,4;
+    
+    2. To show the fairness of rules, Jerry can choose to take it first or second.
+    
+    Who take the last one will win this game.
+    
+    Jerry, of course, want to win. Calculation, Jerry order to achieve their goals should take it first or not.
+   
+    输入
+   
+    输入是一个正整数n，代表花生米的数量。
+    
+    Input a positive integer n, representative the quantity of peanuts.
+   
+    输出
+   
+    如果Jerry决定先取，则输出1，否则输出0。
+    
+    If Jerry decided to take it first output 1, otherwise output 0.
+   
+    输入样例
+   
+    3
+    
+    输出样例
+   
+    1
+    
+    提示
+   
+    来源
+   

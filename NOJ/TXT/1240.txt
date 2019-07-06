@@ -1,0 +1,54 @@
+    1240.Tree
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    In the field of computer science, tree is important and deeply researched, it is a model for many data structure. Now it's your job to justify a tree and calculate the depth.
+    
+    In a tree if there's an edge points from node A to node B, then node B is called a child of node A and node A is called a parent of node B, and we define that B is at level (k+1) if and only if A is at level k. Precisely, a tree here is a directed gragh in which each node has zero or more child nodes and at most one parent of node. A Tree has one and only root(node) without parent of node which we define that root is at level 0.
+    
+    We define the depth of a tree is the maximum level number of all the nodes.
+   
+    输入
+   
+    There're several test cases. For each case, in the first line there are two integer numbers n and m (1 <= n <= 100,0 <= m <= 100,m <= n*n) indicating that the number of nodes and edges respectively, then m lines followed, for each line of these m lines there are two integer numbers a and b (1 <= a, b <= n) indicating there's an edge pointing from a to b. Nodes are represented by numbers between 1 and n. n=0 indicating end of input.
+    
+    输出
+   
+    For each case output one line of answer, if it's not a tree, output "INVALID", otherwise output the depth of the tree
+   
+    输入样例
+   
+    1 0
+    
+    1 1
+    
+    1 1
+    
+    3 1
+    
+    1 3
+    
+    2 2
+    
+    1 2
+    
+    2 1
+    
+    0 0
+    
+    输出样例
+   
+    0
+    
+    INVALID
+    
+    INVALID
+    
+    INVALID
+    
+    提示
+   
+    来源
+   

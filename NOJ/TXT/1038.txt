@@ -1,0 +1,34 @@
+    1038.进制转换(binary conversion)
+   
+    时限：100ms 内存限制：10000K  总时限：1000ms
+   
+    描述
+   
+    把二进制数转换成十进制数。
+    
+    Convert a binary number to a decimal number.
+   
+    输入
+   
+    输入是一个8位的二进制数。
+    
+    Input a 8 bit binary number.
+   
+    输出
+   
+    把输入的数转换为十进制数输出。
+    
+    Converted the binary number to a decimal number and output it.
+   
+    输入样例
+   
+    10000001
+   
+    输出样例
+   
+    129
+    
+    提示
+   
+    来源
+   

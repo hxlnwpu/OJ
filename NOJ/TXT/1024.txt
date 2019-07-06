@@ -1,0 +1,34 @@
+    1024.判断大小写字母(Judge the uppercase or lowercaset)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    给定一个字母，要求判断该字符是大写的还是小写的，如果为大写，则输出Y，否则为N。
+    
+    Input a letter, judge it is uppercase or lowercase, if it is uppercase, output Y, otherwise N.
+   
+    输入
+   
+    一个字母
+    
+    a letter
+   
+    输出
+   
+    Y或者N，最后输出一回车
+    
+    if it is uppercase, output Y, otherwise N.
+   
+    输入样例
+   
+    a
+   
+    输出样例
+   
+    N
+    
+    提示
+   
+    来源
+   

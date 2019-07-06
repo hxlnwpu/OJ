@@ -1,0 +1,108 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1197.Wormholes
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    While exploring his many farms, Farmer John has discovered a number of amazing wormholes. A wormhole is very peculiar because it is a one-way path that delivers you to its destination at a time that is BEFORE you entered the wormhole! Each of FJ's farms comprises N (1 ≤ N ≤ 500) fields conveniently numbered 1..N, M (1 ≤ M ≤ 2500) paths, and W (1 ≤ W ≤ 200) wormholes.
+    <br/>
+    <br/>
+    As FJ is an avid time-traveling fan, he wants to do the following start at some field, travel through some paths and wormholes, and return to the starting field a time before his initial departure. Perhaps he will be able to meet himself ) .
+    <br/>
+    <br/>
+    To help FJ find out whether this is possible or not, he will supply you with complete maps to F (1 ≤ F ≤ 5) of his farms. No paths will take longer than 10,000 seconds to travel and no wormhole can bring FJ back in time by more than 10,000 seconds.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    Line 1 A single integer, F. F farm descriptions follow.
+    <br/>
+    Line 1 of each farm Three space-separated integers respectively N, M, and W
+    <br/>
+    Lines 2..M+1 of each farm Three space-separated numbers (S, E, T) that describe, respectively a bidirectional path between S and E that requires T seconds to traverse. Two fields might be connected by more than one path.
+    <br/>
+    Lines M+2..M+W+1 of each farm Three space-separated numbers (S, E, T) that describe, respectively A one way path from S to E that also moves the traveler back T seconds.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    Lines 1..F For each farm, output YES if FJ can achieve his goal, otherwise output NO (do not include the quotes).
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    2
+    <br/>
+    3 3 1
+    <br/>
+    1 2 2
+    <br/>
+    1 3 4
+    <br/>
+    2 3 1
+    <br/>
+    3 1 3
+    <br/>
+    3 2 1
+    <br/>
+    1 2 3
+    <br/>
+    2 3 4
+    <br/>
+    3 1 8
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    NO
+    <br/>
+    YES
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    For farm 1, FJ cannot travel back in time.
+    <br/>
+    For farm 2, FJ could travel back in time by the cycle 1-2-3-1, arriving back at his starting location 1 second before he leaves. He could start from anywhere on the cycle to accomplish this.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1197)" type="button" value="提交"/>
+ </body>
+</html>

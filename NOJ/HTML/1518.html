@@ -1,0 +1,104 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1518.二叉排序树的查找、删除、插入
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    假设二叉排序树以后继线索链表作存储结构，实现以下功能：
+    <br/>
+    1、编写出该二叉排序树中所有大于a且小于b的关键字的算法。
+    <br/>
+    2、编写在二叉排序树中删除一个关键字的算法。
+    <br/>
+    3、在删除后的二叉排序树中插入一个关键字。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    1、输入二叉排序树的关键字个数
+    <br/>
+    2、乱序输入二叉排序树的关键字（可重复，若重复，则只计入一次）
+    <br/>
+    3、输入a、b的值（a&lt;b）
+    <br/>
+    4、输入要删除的关键字的值
+    <br/>
+    5、输入要插入的关键字的值
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    1、中序遍历输出原始二叉排序树
+    <br/>
+    2、输出符合“大于a，小于b”这一条件的所有关键字的值。若不存在，则输出“NOT FOUND”
+    <br/>
+    3、中序遍历输出删除节点后的二叉排序树。若要删除的节点不存在，则仍输出原始二叉树的中序遍历结果。
+    <br/>
+    4、中序遍历输出插入节点后的二叉排序树。若要插入的节点已存在，则仍输出原始二叉树的中序遍历结果。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    5
+    <br/>
+    2 5 3 6 10
+    <br/>
+    7 9
+    <br/>
+    3
+    <br/>
+    8
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    2 3 5 6 10
+    <br/>
+    NOT FOUND
+    <br/>
+    2 5 6 10
+    <br/>
+    2 5 6 8 10
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    插入关键字是向删除关键字后生成的二叉树中插入
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1518)" type="button" value="提交"/>
+ </body>
+</html>

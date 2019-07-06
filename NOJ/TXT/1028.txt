@@ -1,0 +1,38 @@
+    1028.三角形问题
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    给你三个正数，表示三个边的长度，判断它们能否组成三角形。
+    
+    Give you three Positive number, to determine its ability to form a triangle.
+   
+    输入
+   
+    输入三个浮点数，
+    
+    input three floating-point numbers,
+   
+    输出
+   
+    当三个数能组成三角形，输出Y
+    
+    当三个数不能组成三角形，输出N
+    
+    When the three numbers can be formed triangle, output Y
+    
+    When three numbers can not form a triangle, output N
+   
+    输入样例
+   
+    5.6 6.2 7
+   
+    输出样例
+   
+    Y
+   
+    提示
+   
+    来源
+   

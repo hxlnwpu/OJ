@@ -1,0 +1,150 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1615.棋局评估
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    NPU_LL和NPU_ZTS正在玩井字棋游戏。
+    <br/>
+    井字棋游戏的规则很简单：两人轮流往3*3的棋盘中放棋子，NPU_LL放的是“X”， NPU_ZTS放的是“O”， NPU_LL执先。当同一种棋子占据一行、一列或一条对角线的三个格子时，游戏结束，该种棋子的持有者获胜。当棋盘被填满的时候，游戏结束，双方平手。
+    <br/>
+    NPU_LL设计了一种对棋局评分的方法：
+    <br/>
+    - 对于NPU_LL已经获胜的局面，评估得分为(棋盘上的空格子数+1)；
+    <br/>
+    - 对于NPU_ZTS已经获胜的局面，评估得分为 -(棋盘上的空格子数+1)；
+    <br/>
+    - 对于平局的局面，评估得分为0；
+    <br/>
+    <br/>
+    <br/>
+    -------
+    <br/>
+    |X|O|X|
+    <br/>
+    -------
+    <br/>
+    |O|X|O|
+    <br/>
+    -------
+    <br/>
+    |X| | |
+    <br/>
+    -------
+    <br/>
+    例如上图中的局面，NPU_LL已经获胜，同时棋盘上有2个空格，所以局面得分为2+1=3。
+    <br/>
+    由于NPU_LL并不喜欢计算，所以他请教擅长编程的你，如果两人都以最优策略行棋，那么当前局面的最终得分会是多少？
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    输入的第一行包含一个正整数T，表示数据的组数。
+    <br/>
+    每组数据输入有3行，每行有3个整数，用空格分隔，分别表示棋盘每个格子的状态。0表示格子为空，1表示格子中为“X”，2表示格子中为“O”。保证不会出现其他状态。
+    <br/>
+    保证输入的局面合法。(即保证输入的局面可以通过行棋到达，且保证没有双方同时获胜的情况)
+    <br/>
+    保证输入的局面轮到NPU_LL行棋。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    对于每组数据，输出一行一个整数，表示当前局面的得分。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    3
+    <br/>
+    1 2 1
+    <br/>
+    2 1 2
+    <br/>
+    0 0 0
+    <br/>
+    2 1 1
+    <br/>
+    0 2 1
+    <br/>
+    0 0 2
+    <br/>
+    0 0 0
+    <br/>
+    0 0 0
+    <br/>
+    0 0 0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    3
+    <br/>
+    -4
+    <br/>
+    0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    第一组数据：
+    <br/>
+    NPU_LL将棋子放在左下角(或右下角)后，可以到达问题描述中的局面，得分为3。
+    <br/>
+    3为NPU_LL行棋后能到达的局面中得分的最大值。
+    <br/>
+    第二组数据：
+    <br/>
+    <br/>
+    <br/>
+    NPU_ZTS已经获胜(如图)，此局面得分为-(3+1)=-4。
+    <br/>
+    第三组数据：
+    <br/>
+    井字棋中若双方都采用最优策略，游戏平局，最终得分为0。
+    <br/>
+    数据规模和约定
+    <br/>
+    对于所有评测用例，1 ≤ T ≤ 5。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+    ccf
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1615)" type="button" value="提交"/>
+ </body>
+</html>

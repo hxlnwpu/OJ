@@ -1,0 +1,130 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1191.Cow Bowling
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    The cows don't use actual bowling balls when they go bowling. They each take a number (in the range 0..99), though, and line up in a standard bowling-pin-like triangle like this:
+    <br/>
+    <br/>
+    <br/>
+    7
+    <br/>
+    <br/>
+    3   8
+    <br/>
+    <br/>
+    8   1   0
+    <br/>
+    <br/>
+    2   7   4   4
+    <br/>
+    <br/>
+    4   5   2   6   5
+    <br/>
+    Then the other cows traverse the triangle starting from its tip and moving "down" to one of the two diagonally adjacent cows until the "bottom" row is reached. The cow's score is the sum of the numbers of the cows visited along the way. The cow with the highest score wins that frame.
+    <br/>
+    <br/>
+    Given a triangle with N (1 &lt;= N &lt;= 350) rows, determine the highest possible sum achievable.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    Line 1: A single integer, N
+    <br/>
+    <br/>
+    Lines 2..N+1: Line i+1 contains i space-separated integers that represent row i of the triangle.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    Line 1: The largest sum achievable using the traversal rules
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    5
+    <br/>
+    7
+    <br/>
+    3 8
+    <br/>
+    8 1 0
+    <br/>
+    2 7 4 4
+    <br/>
+    4 5 2 6 5
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    30
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    Explanation of the sample:
+    <br/>
+    <br/>
+    <br/>
+    7
+    <br/>
+    *
+    <br/>
+    3   8
+    <br/>
+    *
+    <br/>
+    8   1   0
+    <br/>
+    *
+    <br/>
+    2   7   4   4
+    <br/>
+    *
+    <br/>
+    4   5   2   6   5
+    <br/>
+    The highest score is achievable by traversing the cows as shown above.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1191)" type="button" value="提交"/>
+ </body>
+</html>

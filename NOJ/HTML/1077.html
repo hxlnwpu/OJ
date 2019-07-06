@@ -1,0 +1,126 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1077.着色
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    对于每个象素点，用RGB三色的值代表它，用（R，G，B）来表示，其中R、G、B的值都为0-255（包括边界）。任两个点的距离用下面的这个公式：
+    <br/>
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    先给出16个点的RGB值，再给出若干个点的RGB值，对这些点请找出在前面16个点中离它们最近的点是哪一个。以三个-1代表测试结束。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    对每一个点，输出离他们最近的点，例如：点（77，79，134）最近的点为点（128，128，128），则输出：
+    <br/>
+    （77，79，134） maps to  (128,128,128)
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    0 0 0
+    <br/>
+    255 255 255
+    <br/>
+    0 0 1
+    <br/>
+    1 1 1
+    <br/>
+    128 0 0
+    <br/>
+    0 128 0
+    <br/>
+    128 128 0
+    <br/>
+    0 0 128
+    <br/>
+    126 168 9
+    <br/>
+    35 86 34
+    <br/>
+    133 41 193
+    <br/>
+    128 0 128
+    <br/>
+    0 128 128
+    <br/>
+    128 128 128
+    <br/>
+    255 0 0
+    <br/>
+    0 1 0
+    <br/>
+    0 0 0
+    <br/>
+    255 255 255
+    <br/>
+    253 254 255
+    <br/>
+    77 79 134
+    <br/>
+    81 218 0
+    <br/>
+    -1 -1 -1
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    (0,0,0) maps to (0,0,0)
+    <br/>
+    (255,255,255) maps to (255,255,255)
+    <br/>
+    (253,254,255) maps to (255,255,255)
+    <br/>
+    (77,79,134) maps to (128,128,128)
+    <br/>
+    (81,218,0) maps to (126,168,9)
+    <br/>
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+    2006西北工业大学程序设计竞赛初赛题E
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1077)" type="button" value="提交"/>
+ </body>
+</html>

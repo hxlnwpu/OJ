@@ -1,0 +1,95 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1619.黑洞数字
+   </h3>
+   <h4>
+    时限：5000ms 内存限制：10000K  总时限：10000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    该题目的黑洞操作是“重排求差”
+    <br/>
+    <br/>
+    假设我们的操作数是 297 。
+    <br/>
+    <br/>
+    首先我们分离各位，然后分别排序得到 972 和 279 , 972 - 279 = 693 。
+    <br/>
+    <br/>
+    对 693 进行排序 ， 得到 963 和369 , 963 - 369 = 594 。
+    <br/>
+    <br/>
+    接下来同理可以得到 954 - 459 = 495 。
+    <br/>
+    <br/>
+    此后永远在 495 上面循环 ， 这样的数 （如495）为一个黑洞数。
+    <br/>
+    <br/>
+    我们定义函数 F(x) 为 从 x 到使 x 变成黑洞数所需的步骤。
+    <br/>
+    <br/>
+    显然 ， F(495) = 0 , F(954) = 1 。（其余数字同理）
+    <br/>
+    <br/>
+    输入两个数字 S 和 T ， 求 F( S ) + F( S+1 ) + 贩贩贩 + F( T-1 ) + F( T ) 。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    第一行有空格分开的两个数，分别为 S 和 T 。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    输出仅一个数，为 F( S ) + F( S+1 ) + 贩贩贩 + F( T-1 ) + F( T ) 的结果。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    1 10
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    11
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    0 &lt;= S &lt;= T &lt;= 700000
+    <br/>
+    对于循环圈的数字，每个循环圈的成员的函数值都是 0 。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+    RedContritio
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1619)" type="button" value="提交"/>
+ </body>
+</html>

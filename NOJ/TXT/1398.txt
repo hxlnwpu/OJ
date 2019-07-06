@@ -1,0 +1,44 @@
+    1398.找最大元素(find the largest element)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    先输入一个整数n，然后在输入n个正整数，输出其中最大的一个。
+    
+    First enter an integer n, then input n positive integers, output the biggest one .
+   
+    输入
+   
+    先输入一个整数n(n不超过20)，然后在输入n个正整数，
+    
+    First enter an integer n(no more then 20), then input n positive integers,
+   
+    输出
+   
+    输出其中最大的一个。
+    
+    Output the biggest one.
+   
+    输入样例
+   
+    5
+    
+    23
+    
+    56
+    
+    84
+    
+    43
+    
+    8
+    
+    输出样例
+   
+    84
+    
+    提示
+   
+    来源
+   

@@ -1,0 +1,222 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1320.汇编模拟器八（代码数据内存都是多块的情况）
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    设计程序，模拟汇编语言，通过输入多条语句，对寄存器的数据进
+    <br/>
+    <br/>
+    行操作，实现目标程序。32个寄存器分别为k0~k15,t0~t14,ra ，且所有
+    <br/>
+    <br/>
+    寄存器已被初始化为0。
+    <br/>
+    现有以下七条命令：
+    <br/>
+    mov    例：mov k1 k2        解释：把k2的值赋给k1。
+    <br/>
+    Addi    例：Addi k2 k5 -4    解释：k2 = k5 - 4（加立即数）。
+    <br/>
+    Add    例：Add k2 k5 t8    解释：k2 = k5 + t8（加法指令）。
+    <br/>
+    Bgez    例：Bgez k3 0x8        解释：分支语句（k3大于等于0时跳
+    <br/>
+    <br/>
+    转到0x8，0x8即标号为8的语句行）。
+    <br/>
+    li    例：li k3 9        解释：赋值语句，直接把9赋值给k3
+    <br/>
+    程序和数据都存储在内存中的只读存储器中，可以从中读取数据，而内存中0x4000以后的区域可以读取也可以存储
+    <br/>
+    lw    例：lw k3 8(k0)        解释：把内存中数据区域的地址为
+    <br/>
+    <br/>
+    k0+8开始的一个字的数据读取到k3
+    <br/>
+    <br/>
+    sw    例：sw k3 8(k0)        解释：把寄存器k3中的值存储到内存中地址为
+    <br/>
+    <br/>
+    k0+8开始的一个字中（与lw不同，sw要求地址必须大于等于0x4000）
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    先输入指定的结束语句号（此条语句还没有执行），再按顺序输入所有语句和数据，语句可能有多块，数据也可能有多块，如果一块区域没有语句也没有数据则用省略号表示。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    输出这些语句执行后所有寄存器的值。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    16
+    <br/>
+    0: li k0 48
+    <br/>
+    4: lw k1 -8(k0)
+    <br/>
+    8: lw k2 -4(k0)
+    <br/>
+    c: jal 0x14
+    <br/>
+    10: lw k4 0(k0)
+    <br/>
+    14: lw k5 4(k0)
+    <br/>
+    18: jal 0x1000
+    <br/>
+    1c: sw k1 0(t1)
+    <br/>
+    20: lw t2 0(t1)
+    <br/>
+    24: jr ra
+    <br/>
+    28: 0x1
+    <br/>
+    2c: 0x8
+    <br/>
+    30: 0x10
+    <br/>
+    34: 0x1a
+    <br/>
+    38: 0xaa
+    <br/>
+    ......
+    <br/>
+    1000: li t14 16384
+    <br/>
+    1004: sw k2 0(t14)
+    <br/>
+    1008: lw k6 0(t14)
+    <br/>
+    100c: li t1 8192
+    <br/>
+    1010: lw k7 0(t1)
+    <br/>
+    1014: li t14 24576
+    <br/>
+    1018: sw k5 0(t14)
+    <br/>
+    101c: sw k6 4(t14)
+    <br/>
+    1020: lw k6 0(t14)
+    <br/>
+    1024: lw k7 4(t14)
+    <br/>
+    1028: jr ra
+    <br/>
+    ......
+    <br/>
+    2000: 0x100
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    48
+    <br/>
+    1
+    <br/>
+    8
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    16
+    <br/>
+    16
+    <br/>
+    8
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    8192
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    0
+    <br/>
+    24576
+    <br/>
+    0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1320)" type="button" value="提交"/>
+ </body>
+</html>

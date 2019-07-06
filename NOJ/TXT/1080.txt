@@ -1,0 +1,66 @@
+    1080.排序
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    一个升序串就是一群用小于号连接起来的由小到大排列好的数值。例如，一个排好的序列为A，B，C，D就表示A〈B，B〈C还有C〈D。现在，我们会给你一堆格式为A〈B的关系式给你，然后要求你去判断是否可以排列成的一个升序串的序列。
+    
+    输入
+   
+    输入数据由多组测试数据组成。每一组测试数据的第一行是两个整数n 和m 。第一个整数代表有多少个字母要排列，而且2〈=n〈=26。要排列的字母是大写字母中的前n 个。第二个整数m 表示会出现多少组象A〈B这样的数值关系。下面的m行，每一行有一个只有三个字符的关系式：一个大写字母，符号“〈”和另一个大写字母。除了前n 个大写字母以外，不会出现其它字母。当n=m=0时表示输入结束。
+    
+    输出
+   
+    对应每组输入数据，输出只有一行。这一行要是以下三种情况之一：
+    
+    Sorted sequence determined after xxx relations: Yyy...y.（在第XXX个关系式后，确定升序串yyyy....y）
+    
+    Sorted sequence cannot be  determined.(升序串无法确定）
+    
+    Inconsisitency found after xxx relations.（在第XXX个关系后出现矛盾）
+    
+    Xxx 就是当一个升序序列确定时或者发现有矛盾时所处理的第几个关系式，哪种情况先出现，就输出哪种；而yyy..y就是排好序的升序序列。
+    
+    输入样例
+   
+    4 6
+    
+    A<B
+    
+    A<C
+    
+    B<C
+    
+    C<D
+    
+    B<D
+    
+    A<B
+    
+    3 2
+    
+    A<B
+    
+    B<A
+    
+    26 1
+    
+    A<Z
+    
+    0 0
+   
+    输出样例
+   
+    Sorted sequence determined after 4 relations: ABCD.
+    
+    Inconsistency found after 2 relations.
+    
+    Sorted sequence cannot be determined.
+   
+    提示
+   
+    来源
+   
+    2006西北工业大学程序设计竞赛决赛题G
+   

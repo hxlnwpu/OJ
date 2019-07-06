@@ -1,3 +1,11 @@
+#project 
+*.cbp
+*.project
+*.depend
+*.layout
+
+
+
 # Prerequisites
 *.d
 

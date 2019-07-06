@@ -1,0 +1,32 @@
+    1346.字符串链接
+   
+    时限：1000ms 内存限制：131072K  总时限：3000ms
+   
+    描述
+   
+    不用strcat 函数，自己编写一个字符串链接函数MyStrcat(char dstStr[],charsrcStr[])
+    
+    输入
+   
+    两个字符串，字符串由小写字母组成。
+    
+    输出
+   
+    链接后的字符串
+    
+    输入样例
+   
+    hello world
+    
+    good morning
+    
+    输出样例
+   
+    helloworld
+    
+    goodmorning
+    
+    提示
+   
+    来源
+   

@@ -1,0 +1,38 @@
+    1395.判断直角三角形(Judge right triangle)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    给定三角形的三条边，a,b,c。判断该三角形是否为直角三角形。
+    
+    To judge whether the given triangle which includes three sides,named a,b and c is an right triangle.
+   
+    输入
+   
+    输入三个整数a，b，c（其中c最大）。
+    
+    Input three integers a,b and c(c is the maximum).
+   
+    输出
+   
+    如果能构成直角三角形则输出“Y”，否则输出“N”。
+    
+    If it’s an right triangle,output “Y”,else output “N”.
+   
+    输入样例
+   
+    3
+    
+    4
+    
+    5
+    
+    输出样例
+   
+    Y
+    
+    提示
+   
+    来源
+   

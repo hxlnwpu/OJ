@@ -1,0 +1,122 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1339.Graduate Admission
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：32768K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    It is said that in 2011, there are about 100 graduate schools ready to proceed over 40,000 applications in Zhejiang Province. It would help a lot if you could write a program to automate the admission procedure.
+    <br/>
+    Each applicant will have to provide two grades: the national entrance exam grade GE, and the interview grade GI. The final grade of an applicant is (GE + GI) / 2. The admission rules are:
+    <br/>
+    <br/>
+    ? The applicants are ranked according to their final grades, and will be admitted one by one from the top of the rank list.
+    <br/>
+    ? If there is a tied final grade, the applicants will be ranked according to their national entrance exam grade GE. If still tied, their ranks must be the same.
+    <br/>
+    ? Each applicant may have K choices and the admission will be done according to his/her choices: if according to the rank list, it is one's turn to be admitted; and if the quota of one's most preferred shcool is not exceeded, then one will be admitted to this school, or one's other choices will be considered one by one in order. If one gets rejected by all of preferred schools, then this unfortunate applicant will be rejected.
+    <br/>
+    ? If there is a tied rank, and if the corresponding applicants are applying to the same school, then that school must admit all the applicants with the same rank, even if its quota will be exceeded.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    Each input file may contain more than one test case.
+    <br/>
+    Each case starts with a line containing three positive integers: N (≤40,000), the total number of applicants; M (≤100), the total number of graduate schools; and K (≤5), the number of choices an applicant may have.
+    <br/>
+    In the next line, separated by a space, there are M positive integers. The i-th integer is the quota of the i-th graduate school respectively.
+    <br/>
+    Then N lines follow, each contains 2+K integers separated by a space. The first 2 integers are the applicant's GE and GI, respectively. The next K integers represent the preferred schools. For the sake of simplicity, we assume that the schools are numbered from 0 to M-1, and the applicants are numbered from 0 to N-1.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    For each test case you should output the admission results for all the graduate schools. The results of each school must occupy a line, which contains the applicants' numbers that school admits. The numbers must be in increasing order and be separated by a space. There must be no extra space at the end of each line. If no applicant is admitted by a school, you must output an empty line correspondingly.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    11 6 3
+    <br/>
+    2 1 2 2 2 3
+    <br/>
+    100 100 0 1 2
+    <br/>
+    60 60 2 3 5
+    <br/>
+    100 90 0 3 4
+    <br/>
+    90 100 1 2 0
+    <br/>
+    90 90 5 1 3
+    <br/>
+    80 90 1 0 2
+    <br/>
+    80 80 0 1 2
+    <br/>
+    80 80 0 1 2
+    <br/>
+    80 70 1 3 2
+    <br/>
+    70 80 1 2 3
+    <br/>
+    100 100 0 2 4
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    0 10
+    <br/>
+    3
+    <br/>
+    5 6 7
+    <br/>
+    2 8
+    <br/>
+    <br/>
+    1 4
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1339)" type="button" value="提交"/>
+ </body>
+</html>

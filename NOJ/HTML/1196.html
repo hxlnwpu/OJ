@@ -1,0 +1,105 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1196.Muddy roads
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    Farmer John has a problem: the dirt road from his farm to town has suffered in the recent rainstorms and now contains (1 &lt;= N &lt;= 10,000) mud pools.
+    <br/>
+    <br/>
+    Farmer John has a collection of wooden planks of length L that he can use to bridge these mud pools. He can overlap planks and the ends do not need to be anchored on the ground. However, he must cover each pool completely.
+    <br/>
+    <br/>
+    Given the mud pools, help FJ figure out the minimum number of planks he needs in order to completely cover all the mud pools.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    * Line 1: Two space-separated integers: N and L
+    <br/>
+    <br/>
+    * Lines 2..N+1: Line i+1 contains two space-separated integers: s_i and e_i (0 &lt;= s_i &lt; e_i &lt;= 1,000,000,000) that specify the start and end points of a mud pool along the road. The mud pools will not overlap. These numbers specify points, so a mud pool from 35 to 39 can be covered by a single board of length 4. Mud pools at (3,6) and (6,9) are not considered to overlap.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    * Line 1: The miminum number of planks FJ needs to use.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    3 3
+    <br/>
+    1 6
+    <br/>
+    13 17
+    <br/>
+    8 12
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    5
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    INPUT DETAILS:
+    <br/>
+    <br/>
+    FJ needs to use planks of length 3 to cover 3 mud pools. The mud pools cover regions 1 to 6, 8 to 12, and 13 to 17.
+    <br/>
+    <br/>
+    OUTPUT DETAILS:
+    <br/>
+    <br/>
+    FJ can cover the mud pools with five planks of length 3 in the following way:
+    <br/>
+    <br/>
+    111222..333444555....
+    <br/>
+    .MMMMM..MMMM.MMMM....
+    <br/>
+    012345678901234567890
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1196)" type="button" value="提交"/>
+ </body>
+</html>

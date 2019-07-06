@@ -1,0 +1,86 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1336.Grading
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：32768K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    Grading hundreds of thousands of Graduate Entrance Exams is a hard work. It is even harder to design a process to make the results as fair as possible. One way is to assign each exam problem to 3 independent experts. If they do not agree to each other, a judge is invited to make the final decision. Now you are asked to write a program to help this process.
+    <br/>
+    For each problem, there is a full-mark P and a tolerance T(&lt;P) given. The grading rules are:
+    <br/>
+    ? A problem will first be assigned to 2 experts, to obtain G1 and G2. If the difference is within the tolerance, that is, if |G1 - G2| ≤ T, this problem's grade will be the average of G1 and G2.
+    <br/>
+    ? If the difference exceeds T, the 3rd expert will give G3.
+    <br/>
+    ? If G3 is within the tolerance with either G1 or G2, but NOT both, then this problem's grade will be the average of G3 and the closest grade.
+    <br/>
+    ? If G3 is within the tolerance with both G1 and G2, then this problem's grade will be the maximum of the three grades.
+    <br/>
+    ? If G3 is within the tolerance with neither G1 nor G2, a judge will give the final grade GJ.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    Each input file may contain more than one test case.
+    <br/>
+    Each case occupies a line containing six positive integers: P, T, G1, G2, G3, and GJ, as described in the problem. It is guaranteed that all the grades are valid, that is, in the interval [0, P].
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    For each test case you should output the final grade of the problem in a line. The answer must be accurate to 1 decimal place.
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    20 2 15 13 10 18
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    14.0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1336)" type="button" value="提交"/>
+ </body>
+</html>

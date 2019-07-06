@@ -1,0 +1,44 @@
+    1122.简单鞍点( simple saddle point)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    矩阵中比上下两个数都大且比左右两个数都小数称为“鞍点”。求输入的矩阵中鞍点的个数。
+    
+    In matrix the number who is bigger then the upper and lower two numbers, and smaller then the left and right two numbers, called "saddle point". count input matrix saddle-point number.
+    
+    输入
+   
+    输入的第一行是两个整数m、n（2<m,n<100），代表矩阵有m行n列；
+    
+    接下来的m行每行有n个正整数。
+    
+    input two integers m and n (2<m,n<100), which represents a matrix of m rows n columns;
+    
+    Next m lines each line have n positive integer.
+   
+    输出
+   
+    输出鞍点的个数。格式是printf("%d\n", count);
+    
+    Output the number of the saddle-point
+    
+    输入样例
+   
+    3 4
+    
+    1 2 13 4
+    
+    6 5 8 7
+    
+    4 3 12 1
+    
+    输出样例
+   
+    1
+   
+    提示
+   
+    来源
+   

@@ -1,0 +1,106 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1276.游戏最终实现
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    根据国际跳棋的规则以及以下约定，实现游戏
+    <br/>
+    <br/>
+    走棋规则约定：
+    <br/>
+    ⑴棋局开始状态为红方在上，白方在下，即红兵只能向下走，白兵只能向上走；
+    <br/>
+    ⑵符合必吃规则时必须吃棋；
+    <br/>
+    ⑶符合升变规则时由兵变成王
+    <br/>
+    <br/>
+    计算机走棋规则约定：
+    <br/>
+    ⑴当存在多颗可以走棋的棋子时，选择靠近对方底线的棋子进行移动；
+    <br/>
+    ⑵兵在跳棋的过程中，如果存在一种以上的路线的话，采取左优先走法；王在跳棋的过程中，如果存在一种以上的路线的话，采取左优先，上优先的规则，即按照“左上”、“右上”、“左下”、“右下”的优先级依次下降的走线规则选择路径；
+    <br/>
+    <br/>
+    玩家走棋方法：
+    <br/>
+    ⑴选择所要移动的棋子：输入所选棋子的坐标，坐标即所在二维数组中的位置；
+    <br/>
+    ⑵输入下一跳的坐标；
+    <br/>
+    ⑶如果还可以继续跳的话，继续输入下一跳的坐标；
+    <br/>
+    在走棋的过程中，按照约定的规则循环执行步骤⑵、⑶，直到不能再继续移动为止。系统应该能判断玩家所输入的坐标是否合法。当坐标不合法时，提示用户重新输入。
+    <br/>
+    <br/>
+    要求：1、能实现简单的人机对战，计算机的走棋策略根据“计算机走棋规则”约定，暂且不考虑人工智能；
+    <br/>
+    2、人的走棋方法按照“玩家走棋方法”约定进行输入输出；
+    <br/>
+    3、当计算机或玩家每走一步棋结束后，输出实时的双方对战情况，即输出棋盘矩阵，表示符号由学生自定。
+    <br/>
+    <br/>
+    能力拓展：
+    <br/>
+    在前述游戏实现的基础上，有能力的学生可以向游戏中加入人工智能，使计算机走棋能智能化，实现最优走棋；引入图形界面。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    由于本题相当于游戏总控模块的整体实现，因此不做具体数据测试。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    无
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    无
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    无
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1276)" type="button" value="提交"/>
+ </body>
+</html>

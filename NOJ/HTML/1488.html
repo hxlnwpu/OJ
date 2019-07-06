@@ -1,0 +1,188 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1488.欧洲旅行
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    使用图这种抽象的数据结构存储模拟的欧洲铁路路线图，通过迪杰斯特拉算法求出欧洲旅行最少花费的路线。该实验应用迪杰斯特拉算法求得任意两个城市之间的最少路费，并给出路费最少的路径的长度和所经过的城市名。
+    <br/>
+    以下给出四元组：
+    <br/>
+    start,end,cost,distance
+    <br/>
+    Lisbon Madrid 75 450
+    <br/>
+    Madrid Lisbon 55 450
+    <br/>
+    Madrid Paris 100 1300
+    <br/>
+    Madrid Bern 15 1500
+    <br/>
+    Paris London 110 450
+    <br/>
+    Paris Bern 35 600
+    <br/>
+    Paris Vienna 75 1300
+    <br/>
+    Paris Brussels 135 300
+    <br/>
+    Paris Madrid 100 1300
+    <br/>
+    London Paris 110 450
+    <br/>
+    Rome Bern 75 900
+    <br/>
+    Bern Rome 75 900
+    <br/>
+    Bern Paris 15 600
+    <br/>
+    Bern Sarajevo 25 1100
+    <br/>
+    Bern Madrid 45 1500
+    <br/>
+    Brussels Paris 225 300
+    <br/>
+    Brussels Amsterdam 185 200
+    <br/>
+    Brussels Berlin 65 800
+    <br/>
+    Amsterdam Brussels 125 200
+    <br/>
+    Amsterdam Copenhagen 45 800
+    <br/>
+    Amsterdam Berlin 45 700
+    <br/>
+    Copenhagen Amsterdam 45 800
+    <br/>
+    Berlin Amsterdam 75 700
+    <br/>
+    Berlin Brussels 35 800
+    <br/>
+    Berlin Prague 45 350
+    <br/>
+    Berlin Warsaw 35 900
+    <br/>
+    Prague Berlin 55 350
+    <br/>
+    Prague Vienna 45 300
+    <br/>
+    Prague Warsaw 35 850
+    <br/>
+    Warsaw Berlin 35 900
+    <br/>
+    Warsaw Bucharest 25 1700
+    <br/>
+    Warsaw Prague 25 850
+    <br/>
+    Vienna Prague 45 300
+    <br/>
+    Vienna Paris 75 1300
+    <br/>
+    Vienna Budapest 45 300
+    <br/>
+    Budapest Vienna 25 300
+    <br/>
+    Budapest Bucharest 25 900
+    <br/>
+    Budapest Sarajevo 15 600
+    <br/>
+    Sarajevo Bern 25 1100
+    <br/>
+    Sarajevo Sofia 15 600
+    <br/>
+    Sarajevo Skopja 15 500
+    <br/>
+    Sarajevo Budapest 25 600
+    <br/>
+    Sofia Sarajevo 25 600
+    <br/>
+    Sofia Skopja 15 200
+    <br/>
+    Skopja Sofia 15 200
+    <br/>
+    Skopja Tirane 15 200
+    <br/>
+    Skopja Sarajevo 15 500
+    <br/>
+    Tirane Athens 55 700
+    <br/>
+    Tirane Skopja 35 200
+    <br/>
+    Athens Tirane 55 700
+    <br/>
+    Bucharest Budapest 25 900
+    <br/>
+    Bucharest Warsaw 25 1700
+    <br/>
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    输入两个城市名称，中间以空格间隔。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    第一行输出最少花费，第二行输出最小距离，之后输出所经过的城市（包含出发点和终点），每行只输出一个城市名称。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    Lisbon Paris
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    105
+    <br/>
+    2550
+    <br/>
+    Lisbon
+    <br/>
+    Madrid
+    <br/>
+    Bern
+    <br/>
+    Paris
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+    考虑到数据量大，可以利用文件读入来减轻工作量。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1488)" type="button" value="提交"/>
+ </body>
+</html>

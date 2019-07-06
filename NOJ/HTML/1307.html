@@ -1,0 +1,79 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1307.TCP之丢包检测
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    经过10余年的发展，Internet已是我们生活中不可缺少的部分。从技术上看，Internet之所以能得到发扬光大，主要靠的是TCP/IP协议使接入Internet中的每台机器可以互联互通。因此，作为计算机专业人士，我们需要了解TCP/IP协议的工作原理。
+    <br/>
+    <br/>
+    TCP/IP协议主要用于管理数据包的传输。比如有Internet中两台机器需要通信，发送端为S，接收端为R，发送端发送了n个数据包，可表示为序列{1,2,..,i,..,n}, 其中pi(1&lt;=i&lt;=n)为S发送的第i个数据包，i称为数据包的顺序号，发送端每发一个不同的数据包时会将顺序号i加1。在理想状态下，接收端R可以按顺序接收到S发送的数据包{1,2,..,i,..,n}从而完成通信。但现实与理想往往是有差距的，最常见的情况是连接S与R之间的负责转发数据包的路由器可能由于某种原因(链路受干扰，拥塞等)丢失数据包。现需要你迈出TCP/IP协议设计的第一步，在对发送端发送数据的情况一无所知的前提下，在接收端计算出某次数据传输中至少丢失的包个数。
+    <br/>
+    <br/>
+    需要注意如下情况：
+    <br/>
+    1. 发送端发送数据包的起始顺序号是随机选取的，并不一定是从1开始，可能从[0,2^32-1]中任意一个数字开始。
+    <br/>
+    2. 顺序号在TCP中使用32位无符号数表示，当发送大量数据时，顺序号可能回绕，例如当数据包序号至2^32-1时还没有发送完毕，会以0序号继续，此时{2^32-1, 0, 1}的序列也认为是连续的。  本TCP系列题目中都假设发送端连续发送的包个数小于2^32。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    接收端R接收到的数据包顺序号序列, 总个数不超过2^32个。假设R接收到的数据包都是以S发送的顺序到达的，且数据包无重复。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    此次传输中至少丢失的数据包个数L(0 =&lt; L &lt; 2^32)。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    1 2 3 4 5
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1307)" type="button" value="提交"/>
+ </body>
+</html>

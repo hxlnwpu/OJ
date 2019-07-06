@@ -1,0 +1,121 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1349.奥运排序问题
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    按要求，给国家进行排名。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    有多组数据。
+    <br/>
+    第一行给出国家数N，要求排名的国家数M，国家号从0到N-1。
+    <br/>
+    第二行开始的N行给定国家或地区的奥运金牌数，奖牌数，人口数（百万）。
+    <br/>
+    接下来一行给出M个国家号。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    排序有4种方式: 金牌总数 奖牌总数 金牌人口比例 奖牌人口比例
+    <br/>
+    对每个国家给出最佳排名排名方式 和 最终排名
+    <br/>
+    格式为: 排名:排名方式
+    <br/>
+    如果有相同的最终排名，则输出排名方式最小的那种排名，对于排名方式，金牌总数 &lt; 奖牌总数 &lt; 金牌人口比例 &lt; 奖牌人口比例
+    <br/>
+    如果有并列排名的情况，即如果出现金牌总数为 100,90,90,80.则排名为1,2,2,4.
+    <br/>
+    每组数据后加一个空行。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    4 4
+    <br/>
+    4 8 1
+    <br/>
+    6 6 2
+    <br/>
+    4 8 2
+    <br/>
+    2 12 4
+    <br/>
+    0 1 2 3
+    <br/>
+    4 2
+    <br/>
+    8 10 1
+    <br/>
+    8 11 2
+    <br/>
+    8 12 3
+    <br/>
+    8 13 4
+    <br/>
+    0 3
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    1:3
+    <br/>
+    1:1
+    <br/>
+    2:1
+    <br/>
+    1:2
+    <br/>
+    <br/>
+    1:1
+    <br/>
+    1:1
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1349)" type="button" value="提交"/>
+ </body>
+</html>

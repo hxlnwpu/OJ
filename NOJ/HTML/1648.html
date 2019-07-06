@@ -1,0 +1,239 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1648.序列生成（分解n）
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    一个序列：a
+    <sub>
+     1
+    </sub>
+    ,a
+    <sub>
+     2
+    </sub>
+    ,...,a
+    <sub>
+     m
+    </sub>
+    。
+    <br/>
+    其中a
+    <sub>
+     i+1
+    </sub>
+    =(a
+    <sub>
+     i
+    </sub>
+    <sup>
+     2
+    </sup>
+    +k)%n
+    <br/>
+    求：
+    <br/>
+    a
+    <sub>
+     2
+    </sub>
+    -a
+    <sub>
+     1
+    </sub>
+    的绝对值与n的最大公约数。
+    <br/>
+    a
+    <sub>
+     4
+    </sub>
+    -a
+    <sub>
+     2
+    </sub>
+    的绝对值与n的最大公约数。
+    <br/>
+    a
+    <sub>
+     6
+    </sub>
+    -a
+    <sub>
+     3
+    </sub>
+    的绝对值与n的最大公约数。
+    <br/>
+    ......
+    <br/>
+    a
+    <sub>
+     2m
+    </sub>
+    -a
+    <sub>
+     m
+    </sub>
+    的绝对值与n的最大公约数。
+    <br/>
+    如果有一个大于1，就把n分解了。
+    <br/>
+    注意如果a
+    <sub>
+     6
+    </sub>
+    -a
+    <sub>
+     3
+    </sub>
+    的绝对值与n的最大公约数等于1，能否保证
+    <br/>
+    a
+    <sub>
+     5
+    </sub>
+    -a
+    <sub>
+     2
+    </sub>
+    的绝对值与n的最大公约数等于1，并且
+    <br/>
+    a
+    <sub>
+     4
+    </sub>
+    -a
+    <sub>
+     1
+    </sub>
+    的绝对值与n的最大公约数等于1，等等
+    <br/>
+    提示：
+    <br/>
+    a
+    <sub>
+     6
+    </sub>
+    -a
+    <sub>
+     3
+    </sub>
+    <br/>
+    =(a
+    <sub>
+     5
+    </sub>
+    <sup>
+     2
+    </sup>
+    +k)-(a
+    <sub>
+     2
+    </sub>
+    <sup>
+     2
+    </sup>
+    +k)
+    <br/>
+    =(a
+    <sub>
+     5
+    </sub>
+    -a
+    <sub>
+     2
+    </sub>
+    )*(a
+    <sub>
+     5
+    </sub>
+    +a
+    <sub>
+     2
+    </sub>
+    )
+    <br/>
+    所以如果a
+    <sub>
+     6
+    </sub>
+    -a
+    <sub>
+     3
+    </sub>
+    与n互素
+
+则a
+    <sub>
+     5
+    </sub>
+    -a
+    <sub>
+     2
+    </sub>
+    与n互素
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    输入四个正整数a
+    <sub>
+     1
+    </sub>
+    ,k,n,m。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    前m对的差如果有与n最大公约数不等于1的，则输出第一个大于1的公约数，否则输出1。
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    2 1 21 10
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    3
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1648)" type="button" value="提交"/>
+ </body>
+</html>

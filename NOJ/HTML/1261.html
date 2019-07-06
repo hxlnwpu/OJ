@@ -1,0 +1,102 @@
+<html>
+ <body>
+  <div style="width: 980px;background-color: #FFFFFF;">
+   <h3 style="color:#1A5CC8">
+    1261.黑白棋（状态改变）
+   </h3>
+   <h4>
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   </h4>
+   <div align="left" class="panel_title">
+    描述
+   </div>
+   <div class="panel_content">
+    相信大家已经对黑白棋很熟悉了，下面我们来编写一个状态转移的模块。即当你下完一个子后，棋盘的状态会发成相应的改变，这里我们需要你输出棋盘改变后的状态。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入
+   </div>
+   <div class="panel_content">
+    对于本题，首先读入的是当前棋盘的状态，共8行，每行8个数字，1代表白棋，2代表黑棋,0代表为空格（未下子）。第9行有3个数字R C N,分别代表下子的行、列还有所要下子的颜色。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出
+   </div>
+   <div class="panel_content">
+    输出下完子后棋盘的状态，输出共8行，数字两两直接请加入一个空格（注意：行尾无空格）。
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输入样例
+   </div>
+   <div class="panel_content">
+    0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 1 0
+    <br/>
+    0 0 0 2 0 2 0 0
+    <br/>
+    0 0 1 2 2 2 0 0
+    <br/>
+    0 0 0 2 1 0 0 0
+    <br/>
+    0 0 0 2 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0
+    <br/>
+    2 4 1
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    输出样例
+   </div>
+   <div class="panel_content">
+    0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 1 0
+    <br/>
+    0 0 0 2 1 2 0 0
+    <br/>
+    0 0 1 2 1 2 0 0
+    <br/>
+    0 0 0 2 1 0 0 0
+    <br/>
+    0 0 0 2 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0
+    <br/>
+    0 0 0 0 0 0 0 0
+    <br/>
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    提示
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+   <div align="left" class="panel_title">
+    来源
+   </div>
+   <div class="panel_content">
+   </div>
+   <div class="panel_bottom">
+   </div>
+  </div>
+  <input id="SubmitButton" name="SubmitButton" onclick="SubmitProblem(1261)" type="button" value="提交"/>
+ </body>
+</html>
