@@ -1,6 +1,4 @@
 //稀疏矩阵转置   
-
-
 #include <iostream>
 #define MAXSIZE 20
 
