@@ -67,7 +67,7 @@ int main()
         M.data[m].elem = k;
         m++;
     }
-    M.elemNum= T.elemNum = m;
+    M.elemNum= T.elemNum = --m;
     //TransposeSMatrix(M, T);
     QuickTranspose(M,T);
     PrintSMatrix(T);
