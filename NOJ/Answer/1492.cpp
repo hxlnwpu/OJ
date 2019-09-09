@@ -29,7 +29,7 @@ void MulTSMatrix(TSMatrix &A,TSMatrix &B,TSMatrix &C) //稀疏矩阵乘法
    //从M的第一行开始到最后一行，arow是A的当前行
    for(arow = 1;arow <= A.rowNum;arow++){
         for(ccol=1;ccol <= C.colNum;ccol++){
-            ctemp[ccol] = 0;//C的当前行的各列元素清零
+            ctemp[ccol] = 0;//的当前行的各列元素清零
         }
         C.rpos[arow] = C.elemNum + 1;//开始时从第一个存储位置开始存，后面是基于前面的
         if(arow < A.rowNum){
