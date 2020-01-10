@@ -7,7 +7,7 @@ int main()
 {
     float years,hours;
     cin>>years>>hours;
-    cout<<setiosflags(ios::fixed)<<setprecision(2);   //setiosflags和setprecision都是控制浮点数输出
+    cout<<setiosflags(ios::fixed)<<setprecision(2);   
     if(years>=5)
     {
         if(hours<=40)
