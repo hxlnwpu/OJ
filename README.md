@@ -1,2 +1,1 @@
-# OJ
-OJ训练
+# Online Judge Exercise
