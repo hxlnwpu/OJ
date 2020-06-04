@@ -1,0 +1,36 @@
+    1019.素数表(Prime number table)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输出素数表(Output prime number table)
+   
+    输入
+   
+    输入两个正整数m n(其中1< m < n < 100000000，且 n-m < 10000)。
+    
+    Input two positive integer m n(1< m < n < 100000000，and n-m < 10000)。
+   
+    输出
+   
+    按从小到大输出大于等于m且小于等于n的所有素数，每个数占一行。
+    
+    Output all the primes from small to large  greater or equal to m and less or equal to n, each number per line.
+   
+    输入样例
+   
+    2  5
+   
+    输出样例
+   
+    2
+    
+    3
+    
+    5
+    
+    提示
+   
+    来源
+   

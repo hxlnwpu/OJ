@@ -1,0 +1,148 @@
+    1488.欧洲旅行
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    使用图这种抽象的数据结构存储模拟的欧洲铁路路线图，通过迪杰斯特拉算法求出欧洲旅行最少花费的路线。该实验应用迪杰斯特拉算法求得任意两个城市之间的最少路费，并给出路费最少的路径的长度和所经过的城市名。
+    
+    以下给出四元组：
+    
+    start,end,cost,distance
+    
+    Lisbon Madrid 75 450
+    
+    Madrid Lisbon 55 450
+    
+    Madrid Paris 100 1300
+    
+    Madrid Bern 15 1500
+    
+    Paris London 110 450
+    
+    Paris Bern 35 600
+    
+    Paris Vienna 75 1300
+    
+    Paris Brussels 135 300
+    
+    Paris Madrid 100 1300
+    
+    London Paris 110 450
+    
+    Rome Bern 75 900
+    
+    Bern Rome 75 900
+    
+    Bern Paris 15 600
+    
+    Bern Sarajevo 25 1100
+    
+    Bern Madrid 45 1500
+    
+    Brussels Paris 225 300
+    
+    Brussels Amsterdam 185 200
+    
+    Brussels Berlin 65 800
+    
+    Amsterdam Brussels 125 200
+    
+    Amsterdam Copenhagen 45 800
+    
+    Amsterdam Berlin 45 700
+    
+    Copenhagen Amsterdam 45 800
+    
+    Berlin Amsterdam 75 700
+    
+    Berlin Brussels 35 800
+    
+    Berlin Prague 45 350
+    
+    Berlin Warsaw 35 900
+    
+    Prague Berlin 55 350
+    
+    Prague Vienna 45 300
+    
+    Prague Warsaw 35 850
+    
+    Warsaw Berlin 35 900
+    
+    Warsaw Bucharest 25 1700
+    
+    Warsaw Prague 25 850
+    
+    Vienna Prague 45 300
+    
+    Vienna Paris 75 1300
+    
+    Vienna Budapest 45 300
+    
+    Budapest Vienna 25 300
+    
+    Budapest Bucharest 25 900
+    
+    Budapest Sarajevo 15 600
+    
+    Sarajevo Bern 25 1100
+    
+    Sarajevo Sofia 15 600
+    
+    Sarajevo Skopja 15 500
+    
+    Sarajevo Budapest 25 600
+    
+    Sofia Sarajevo 25 600
+    
+    Sofia Skopja 15 200
+    
+    Skopja Sofia 15 200
+    
+    Skopja Tirane 15 200
+    
+    Skopja Sarajevo 15 500
+    
+    Tirane Athens 55 700
+    
+    Tirane Skopja 35 200
+    
+    Athens Tirane 55 700
+    
+    Bucharest Budapest 25 900
+    
+    Bucharest Warsaw 25 1700
+    
+    输入
+   
+    输入两个城市名称，中间以空格间隔。
+   
+    输出
+   
+    第一行输出最少花费，第二行输出最小距离，之后输出所经过的城市（包含出发点和终点），每行只输出一个城市名称。
+   
+    输入样例
+   
+    Lisbon Paris
+   
+    输出样例
+   
+    105
+    
+    2550
+    
+    Lisbon
+    
+    Madrid
+    
+    Bern
+    
+    Paris
+   
+    提示
+   
+    考虑到数据量大，可以利用文件读入来减轻工作量。
+   
+    来源
+   

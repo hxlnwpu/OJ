@@ -1,0 +1,28 @@
+    1393.Sum
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    Your task is to find the sum of all integer numbers lying between 1 and N inclusive.
+    
+    输入
+   
+    The input consists of a single integer N that is not greater than 10000.
+   
+    输出
+   
+    Write a single integer number that is the sum of all integer numbers lying between 1 and N inclusive.
+    
+    输入样例
+   
+    10
+    
+    输出样例
+   
+    55
+    
+    提示
+   
+    来源
+   

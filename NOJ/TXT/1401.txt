@@ -1,0 +1,38 @@
+    1401.Find the max
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    Find the max one among some positive number that input from keybord.
+   
+    输入
+   
+    Input some positive numbers, input 0 represents the end.
+   
+    输出
+   
+    Output the max one.
+   
+    输入样例
+   
+    3
+    
+    8
+    
+    5
+    
+    56
+    
+    12
+    
+    0
+    
+    输出样例
+   
+    56
+    
+    提示
+   
+    来源
+   

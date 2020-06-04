@@ -1,0 +1,38 @@
+    1074.二进制数(Binary Number)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    给你一个10进制正整数（小于等于10^6），让你把它转换成2进制数，把其中哪一位是1的位数输出，按升序排列。(比如说13的2进制是1101，它的第3位是1，第2位是1，第1位是0，第0位是1，所以输出 0 2 3)
+    
+    You are given a decimal positive integer (no more than 10^6). Convert it into a binary number. Output the bits that are “1” in ascending order. (e.g. The binary number of 13 is 1101, its third bit is 1, second bit is 1, first bit is 0, and zeroth bit is 1, so output 0 2 3)
+   
+    输入
+   
+    第一行是一个整数d(1<=d<=20)，表示测试数据个数；以下d行，每行一个10进制正整数。
+    
+    An integer d (1<=d<=20) in the first row, indicating the number of testing data; one decimal number each row in the following d rows.
+   
+    输出
+   
+    d行对应每个测试数据，把转换成的2进制数中哪一位是1的位数输出，按升序排列。(比如说1101，它的第3位是1，第2位是1，第1位是0，第0位是1，所以输出 0 2 3)
+    
+    Output the bits that are “1” in ascending order. An example is given above.(e.g. The binary number of 13 is 1101, its third bit is 1, second bit is 1, first bit is 0, and zeroth bit is 1, so output 0 2 3)
+   
+    输入样例
+   
+    1
+    
+    13
+    
+    输出样例
+   
+    0 2 3
+    
+    提示
+   
+    来源
+   
+    2006西北工业大学程序设计竞赛初赛题B
+   

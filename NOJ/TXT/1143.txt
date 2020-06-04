@@ -1,0 +1,59 @@
+    1143.字母转换
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    通过栈交换字母顺序。给定两个字符串，要求所有的进栈和出栈序列（i表示进栈，o表示出栈），使得字符串2在求得的进出栈序列的操作下，变成字符串1。输出结果需满足字典序。例如TROT 到 TORT:
+    
+    [
+    
+    i i i i o o o o
+    
+    i o i i o o i o
+    
+    ]
+    
+    输入
+   
+    给定两个字符串，第一个字符串是源字符串，第二个字符是目标目标字符串。
+   
+    输出
+   
+    所有的进栈和出栈序列,输出结果需满足字典序
+   
+    输入样例
+   
+    madam
+adamm
+bahama
+bahama
+long
+short
+eric
+rice
+   
+    输出样例
+   
+    [
+i i i i o o o i o o 
+i i i i o o o o i o 
+i i o i o i o i o o 
+i i o i o i o o i o 
+]
+[
+i o i i i o o i i o o o 
+i o i i i o o o i o i o 
+i o i o i o i i i o o o 
+i o i o i o i o i o i o 
+]
+[
+]
+[
+i i o i o i o o 
+]
+   
+    提示
+   
+    来源
+   

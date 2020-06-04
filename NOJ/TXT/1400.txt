@@ -1,0 +1,40 @@
+    1400.简单求和(find their sum)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输入一些正整数，求它们的和。
+    
+    Input a number of positive integers, find their sum.
+   
+    输入
+   
+    输入一些正整数，输入0表示结束。
+    
+    Input a number of positive integers,Input 0 represents the end
+   
+    输出
+   
+    求这些正整数的和。
+    
+    find their sum.
+   
+    输入样例
+   
+    2
+    
+    3
+    
+    10
+    
+    0
+    
+    输出样例
+   
+    15
+    
+    提示
+   
+    来源
+   

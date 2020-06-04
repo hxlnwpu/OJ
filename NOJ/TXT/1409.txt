@@ -1,0 +1,34 @@
+    1409.算12（二）（count 12）
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输入三个正整数，问你只使用加减能否得到12。
+    
+    Input three positive integer, and ask that you only use addition and subtraction able to get 12.
+   
+    输入
+   
+    输入三个正整数，
+    
+    Input three positive integer,
+   
+    输出
+   
+    如果能得到12，则输出Yes，否则输出No。
+    
+    If you can get 12, then output Yes, otherwise output the No.
+   
+    输入样例
+   
+    10 8 6
+    
+    输出样例
+   
+    Yes
+    
+    提示
+   
+    来源
+   

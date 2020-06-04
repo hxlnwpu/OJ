@@ -1,0 +1,46 @@
+    1403.三角形问题(The triangle)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    给你三个正整数，判断其是否能构成三角形。
+    
+    Give you three positive integers, determine whether it can form a triangle.
+   
+    输入
+   
+    输入三个正整数，
+    
+    Input three positive integers,
+   
+    输出
+   
+    判断他们是否能够成三角形，
+    
+    如果他们能构成三角形则输出Y
+    
+    否则输出N
+    
+    Determine whether they can form a triangle
+    
+    If they can form a triangle output Y
+    
+    Otherwise, output N
+   
+    输入样例
+   
+    8
+    
+    9
+    
+    6
+    
+    输出样例
+   
+    Y
+    
+    提示
+   
+    来源
+   

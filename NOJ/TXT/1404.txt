@@ -1,0 +1,32 @@
+    1404.Digital Split
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    Input a three-digit number,and output the numbe of it’s respective positions seperately.Each digit occupies one line only.
+   
+    输入
+   
+    Input a three-digit positive number
+   
+    输出
+   
+    Output the numbe of it’s respective positions seperately and Sequentially
+   
+    输入样例
+   
+    123
+   
+    输出样例
+   
+    1
+    
+    2
+    
+    3
+    
+    提示
+   
+    来源
+   

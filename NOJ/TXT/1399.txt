@@ -1,0 +1,38 @@
+    1399.数字之和(the sum of digits)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    求一个正整数的每一位上的数字之和。
+    
+    count the sum of a number'digits.
+    
+    For example input 1234,count 1 + 2 + 3 + 4 = 10, so output 10
+    
+    example 2 input 35871,count 3 + 5 + 8 + 7 + 1 = 24,so output 24
+   
+    输入
+   
+    输入一个正整数。
+    
+    Input a positive integer.
+   
+    输出
+   
+    输出这个正整数的每一位上的数字之和。
+    
+    Output the sum of the number'digits
+   
+    输入样例
+   
+    1234
+    
+    输出样例
+   
+    10
+    
+    提示
+   
+    来源
+   

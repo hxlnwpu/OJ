@@ -1,0 +1,36 @@
+    1035.字符串查找(String search)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    给你一个字符不重复的字符串，再给你一个字母，请你编写程序输出该字母在字符串中第一次出现时候的位置，如果不在该字符串中，则输出-1 ；本题区分大小写。
+    
+    Input a character string of non-repetition first, and then input a character, you write a program to output the position of the character in the string , if it is not in the string, output -1; this question is case sensitive.
+   
+    输入
+   
+    输入数据的第一行是一个长度不大于20的字符串，第二行是一个字母。
+    
+    The first line of the input data is a string, length no more than 20 , the second line is a character.
+   
+    输出
+   
+    输出要查找的字母在字符串中第一次出现时候的位置，最后输出一个回车
+    
+    output the position of the character in the string , if it is not in the string, output -1; this question is case sensitive.
+   
+    输入样例
+   
+    English
+    
+    g
+    
+    输出样例
+   
+    3
+    
+    提示
+   
+    来源
+   

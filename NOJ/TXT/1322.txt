@@ -1,0 +1,38 @@
+    1322.求子集重量之和(Calculate the sum of a subset's weight)
+   
+    时限：100ms 内存限制：10000K  总时限：1000ms
+   
+    描述
+   
+    现有n件物品，已知它们的重量，求其中一个子集的重量之和。
+    
+    There are n things, we are known their weight, calculate the sum of a subset's weight.
+   
+    输入
+   
+    先输入一个整数n，再输入n件物品的重量，最后输入n个元素表示子集（第i个元素为0，表示子集中不包含该物品，第i个元素为1，表示子集中包含该物品）。
+    
+    Input a positive integer n first, and then Input the weight of n items, at last we input the n numbers indicate the subset (i-th element is 0, which means that the subset does not contain the i-th item, the i-th element is 1, which means that the subset contains the i-th item).
+   
+    输出
+   
+    输出该子集的重量之和。
+    
+    Output the sum of subset's weight.
+   
+    输入样例
+   
+    5
+    
+    2 9 8 7 5
+    
+    0 1 1 0 1
+    
+    输出样例
+   
+    22
+    
+    提示
+   
+    来源
+   

@@ -1,0 +1,37 @@
+    1033.约瑟夫问题(Joseph)
+   
+    时限：100ms 内存限制：10000K  总时限：1000ms
+   
+    描述
+   
+    设有N名同学手拉手围成一圈，自1、2、3、......开始编号，现从1号开始连续数数，
+    
+    每数到M将此同学从圈中拉走，  求最后被拉走的同学的编号
+    
+    Has N students form a circle holding hands, from 1, 2, 3, ..., n,  starting to count now continuously from the 1st,
+Each time when count to m, the m will be away from the circle, find the last one.
+    
+    输入
+   
+    两个正整数，分别为N和M。0<N<=100 ；0<M<65535
+    
+    Two positive integers N and M, respectively. 0<N<=100 ；0<M<65535
+    
+    输出
+   
+    一个正整数，为最后被拉走的同学的编号，最后输出回车
+    
+    A positive integer, the number of students last away,
+   
+    输入样例
+   
+    5 3
+    
+    输出样例
+   
+    4
+    
+    提示
+   
+    来源
+   

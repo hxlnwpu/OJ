@@ -1,0 +1,36 @@
+    1010.n以内的所有完全数(Perfect number)
+   
+    时限：2000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    如果一个大于2的整数的不包含它自身的约数（即能将其整除的数）之和恰好等于它本身，则称其为完全数。如：6＝1＋2＋3，所以，6是个完全数。给定一个数N，编程从小到大输出小于等于N的所有完全数。
+    
+    Perfect number is defined as follows:the sum of it’s common divisor which does not includes it’s maximum equals itself.
+   
+    输入
+   
+    一个正整数n。
+    
+    a positive integer n
+   
+    输出
+   
+    输出小于等于n的所有完全数，每个占一行。
+    
+    Output all perfect numbers which is not greater than n,and each perfect number occupies one line.
+   
+    输入样例
+   
+    100
+    
+    输出样例
+   
+    6
+    
+    28
+    
+    提示
+   
+    来源
+   

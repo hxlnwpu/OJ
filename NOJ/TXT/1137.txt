@@ -1,0 +1,60 @@
+    1137.卡布列克常数(Kaprekar constant)
+   
+    时限：1000ms 内存限制：10000K  总时限：4000ms
+   
+    描述
+   
+    任意一个四位数，只要它们各个位上的数字是不全相同的，就有这样的规律：
+    
+    1)将组成该四位数的四个数字由大到小排列，形成由这四个数字构成的最大的四位数；
+    
+    2)将组成该四位数的四个数字由小到大排列，形成由这四个数字构成的最小的四位数(如果四个数中含有0，则得到的数不足四位)；
+    
+    3)求两个数的差，得到一个新的四位数(高位零保留！)。
+    
+    重复以上过程，最后得到的结果是6174，这个数被称为卡布列克数。
+    
+    验证卡布列克运算。
+    
+    The 6174 is also called cabo Lieke number which is find in this way:
+    
+    1) Put these four numbers which consist a four-figure in descending order,and form a new four-figure number which is the largest one;
+    
+    2) Put these four numbers which consist a four-figure in ascending order,and form a new four-figure number which is the smallest one;
+    
+    3)Get a new four-figure number when you subtract the smallest one with the largest one;
+    
+    Repeat the above process until you get 6174.
+   
+    输入
+   
+    输入数据包含一个四位整数N。
+    
+    A four-figure number n
+   
+    输出
+   
+    输出数据中应包含按以上规律将N变换成6174的演变过程，每个四位数占一行。
+    
+    Output the progress of it which changes from N to 6174, and each four-figure occupies one line.
+   
+    输入样例
+   
+    1459
+    
+    输出样例
+   
+    1459
+    
+    8082
+    
+    8532
+    
+    6174
+    
+    提示
+   
+    如果一直在WA又不知道原因，看看规律3。
+   
+    来源
+   

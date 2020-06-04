@@ -1,7 +1,5 @@
-public class MoveZeros{
-    public static void main(String[] args)
-    {
-        int[] nums = {0,1,0,3,12};
+class Solution {
+    public void moveZeroes(int[] nums) {
         int j = 0;
         for(int elem:nums){
             if (elem == 0){
@@ -17,9 +15,6 @@ public class MoveZeros{
             {
                 nums[k] = 0;
             }
-        }
-        for(int elem:nums){
-            System.out.println(elem); 
         }
     }
 }

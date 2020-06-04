@@ -1,0 +1,34 @@
+    1413.算24（四）（count 24 （四））
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输入4个正整数，不改变他们的顺序，问你只使用加减乘除能否得到24。
+    
+    Input 4 positive integer, Does not change the order, and ask that you only use Addition, subtraction, multiplication and division able to get 24.
+    
+    输入
+   
+    输入4个正整数，
+    
+    Input 4 positive integer,
+    
+    输出
+   
+    如果能得到24，则输出Yes，否则输出No。
+    
+    If you can get 24, then output Yes, otherwise output the No.
+    
+    输入样例
+   
+    12 3 4 1
+    
+    输出样例
+   
+    Yes
+    
+    提示
+   
+    来源
+   

@@ -1,0 +1,42 @@
+    1397.求和问题(Calculate the sum)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输入一些整数，不超过100个，求他们的和。
+    
+    Input some integers,and find the sum of them.
+   
+    输入
+   
+    先输入一个正整数n，然后在输入n个整数。
+    
+    Input a positive integer named n(no more than 100) firstly and input n integers followed.
+   
+    输出
+   
+    输出这n个整数的和。
+    
+    Output the sum of them
+   
+    输入样例
+   
+    4
+    
+    10
+    
+    20
+    
+    30
+    
+    40
+    
+    输出样例
+   
+    100
+    
+    提示
+   
+    来源
+   

@@ -1,0 +1,34 @@
+    1396.求因子之和(sum of factors)
+   
+    时限：1000ms 内存限制：10000K  总时限：3000ms
+   
+    描述
+   
+    输入一个正整数，输出它的所有小于它自己的因子之和。
+    
+    Input a positive integer,and output the sum of it’s all factors which is smaller than itself.
+   
+    输入
+   
+    输入一个正整数。
+    
+    Input a positive integer.
+   
+    输出
+   
+    输出它的所有小于它自己的因子之和。
+    
+    output the sum of it’s all factors which is smaller than itself.
+   
+    输入样例
+   
+    12
+    
+    输出样例
+   
+    16
+    
+    提示
+   
+    来源
+   
