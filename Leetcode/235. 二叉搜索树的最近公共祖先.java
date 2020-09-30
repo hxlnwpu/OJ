@@ -49,3 +49,67 @@ class Solution {
         return null;
     }
 }
+/**
+ * 方法3：
+ */
+class Solution {
+    /**
+     * 路径的分叉点
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     */
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+      List<TreeNode> path_p = getPath(root,p);
+      List<TreeNode> path_q = getPath(root,q);
+      TreeNode ancestor = null;
+        for (int i = 0; i < path_p.size()&&i<path_q.size(); i++) {
+            if(path_p.get(i)==path_q.get(i))
+                ancestor = path_p.get(i);
+            else
+                break;
+        }
+        return ancestor;
+      
+    }
+    /**
+     * 找p和q的路径
+     * @param root
+     * @param target
+     * @return
+     */
+    public List<TreeNode> getPath(TreeNode root,TreeNode target)
+    {
+        List<TreeNode> path = new ArrayList<>();
+        TreeNode node = root;
+        while(node!=target)
+        {
+            path.add(node);
+            if(target.val<node.val)
+                node = node.left;
+            else
+                node = node.right;
+        }
+        path.add(node);
+        return path;
+    }
+}
+/**
+ * 方法4：1次遍历
+ */
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        TreeNode ancestor = root;
+        while (true) {
+            if (p.val < ancestor.val && q.val < ancestor.val) {
+                ancestor = ancestor.left;
+            } else if (p.val > ancestor.val && q.val > ancestor.val) {
+                ancestor = ancestor.right;
+            } else {
+                break;
+            }
+        }
+        return ancestor;
+    }
+}
